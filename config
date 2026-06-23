@@ -228,7 +228,3 @@ client.unfocused    $bg_dark $bg_dark $fg $bg_dark $bg_dark
 client.urgent       #f7768e $bg $fg #f7768e #f7768e
 client.placeholder  $bg $bg $fg $bg $bg
 client.background   $bg
-
-# for cursor
-exec --no-startup-id "echo 'Xcursor.size: $cursor_size' | xrdb -merge"
-exec --no-startup-id xsetroot -cursor_name left_ptr
